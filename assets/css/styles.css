@@ -189,3 +189,73 @@ p {
     padding: 20px;
 }
 
+/* About us page */
+
+#about-info {
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+#about-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+
+#about-info .info-right img {
+    display: block;
+    margin: auto;
+    width: 70%;
+   
+}
+
+.info-right img {
+  border-radius: 4px;
+  padding: 5px;
+  width: 200px;
+  height: 350px;
+}
+
+ img:hover {
+  transform: scaleX(-1);
+}
+
+#about-info .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+
+}
+
+/* testimonial section */
+
+#testimonials {
+    height: 600px;
+    padding-top: 100px;
+    background-image: url("../images/pexels-enginakyurt-2677398.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#testimonials h2 {
+    color: azure;
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 34px;
+}
+
+#testimonials .testimonial {
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+
+#testimonials .testimonial img {
+    width: 90px;
+    height: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
